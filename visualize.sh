@@ -23,7 +23,8 @@ fi
 if [ ${#buildXmlFilepath} -gt 0 ]
 then
 	if [ -f $outputDirectory ]; then
-		echo "File with this name already exists. Please remove first the old"
+		printf -v var "File exists already in path %s" $outputDirectory
+		echo $var
 		exit
 	else
 		java -cp $xalan $javaClass -IN $1 -XSL $xsl -OUT $out
