@@ -15,7 +15,7 @@ You need a more or less current version of the java jdk
 # Usage
 For printing out the current build.xml file with dependencies as png file
 <br>
-```./visulize <path-to-your-build.xml> <optional-output-directory>```
+```./visualize <path-to-your-build.xml> <optional-output-directory>```
 <br>
 
 # Further information
